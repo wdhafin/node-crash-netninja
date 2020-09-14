@@ -8,7 +8,9 @@
     <h2><%= blog.title %></h2>
     <div class="content">
       <p><%= blog.body %></p>
-      <a class="delete" data-doc="<%= blog._id %>">delete</a>
+      <a class="delete" data-doc="<%= blog._id %>">
+        <img src="/trashcan.svg" alt="delete icon">
+      </a>
     </div>
   </div>
 
